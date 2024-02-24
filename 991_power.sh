@@ -10,6 +10,6 @@ else
 	cmd="get_powerstat"
 fi
 
-# was modle 135
+# was model 135
 
 rigctl-local --model=1035 --rig-file=/dev/serial/by-id/usb-Silicon_Labs_CP2105_Dual_USB_to_UART_Bridge_Controller_00C99175-if00-port0 $cmd 
